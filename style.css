@@ -1,0 +1,32 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background: #f8f9fa;
+}
+.center-img {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+img {
+	max-width: 90vw;
+	max-height: 60vh;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+	border-radius: 16px;
+}
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+	color: #222;
+}
+
+* {
+  font-family: "papyrus", fantasy;
+}
+
+* {
+  background-color: MistyRose;
+}
