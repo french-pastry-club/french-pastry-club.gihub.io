@@ -4,7 +4,8 @@ body {
 	align-items: center;
 	height: 100vh;
 	margin: 0;
-	background: #f8f9fa;
+	background-color: MistyRose;
+	font-family: "papyrus", fantasy;
 }
 .center-img {
 	display: flex;
@@ -23,10 +24,24 @@ h1 {
 	color: #222;
 }
 
-* {
-  font-family: "papyrus", fantasy;
+.pastry-link {
+	margin-top: 1.5rem;
+	color: #0074d9;
+	text-decoration: none;
+	font-size: 1.2rem;
 }
 
-* {
-  background-color: MistyRose;
+.pastry-link:hover {
+	text-decoration: underline;
+}
+
+.back-link {
+	margin-top: 1.5rem;
+	color: #0074d9;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.back-link:hover {
+	text-decoration: underline;
 }
