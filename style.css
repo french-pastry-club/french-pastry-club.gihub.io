@@ -1,8 +1,9 @@
 body {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	height: 100vh;
+	/* don't vertically center the whole page so headers sit at the top */
+	align-items: flex-start;
+	min-height: 100vh;
 	margin: 0;
 	background-color: MistyRose;
 	font-family: "papyrus", fantasy;
@@ -11,6 +12,16 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+/* Page container for event pages: keep header on top, content below */
+.page {
+	width: min(900px, 95vw);
+	padding: 2rem;
+	box-sizing: border-box;
+	background: rgba(255,255,255,0.6);
+	border-radius: 12px;
+	margin-top: 2rem;
 }
 img {
 	max-width: 90vw;
